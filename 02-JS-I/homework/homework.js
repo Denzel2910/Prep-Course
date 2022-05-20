@@ -4,7 +4,7 @@
 const nuevaString = hola ;
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 8;
+const nuevoNum = 850440 ;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -164,7 +164,15 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if(numero === 0) {
+    return false
+  }
+  else if(numero > 0){
+    return "Es positivo" ;
+  }
+  else {
+    return "Es negativo" ;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -199,7 +207,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+ return 'El perimetro es'.concat(" ").concat(4*lado).concat(" ").concat('metros') 
 }
 
 
