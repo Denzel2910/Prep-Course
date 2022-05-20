@@ -171,7 +171,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + '!' 
+  return str.concat('!')
 }
 
 
@@ -206,7 +206,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+return 'El área del triangulo es'.concat(" ").concat(base*altura/2).concat(" ").concat('metros cuadrados')
 }
 
 
@@ -214,7 +214,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return 'Recibira'.concat(" ").concat(euro*1.2).concat(" ").concat('dolares')
 }
 
 
